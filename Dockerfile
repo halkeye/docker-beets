@@ -1,7 +1,7 @@
 ARG UPSTREAM_VERSION=2.3.0
 FROM ghcr.io/home-operations/beets:${UPSTREAM_VERSION}
 LABEL org.opencontainers.image.source=https://github.com/beetbox/beets \
-  org.opencontainers.image.version=${UPSTREAM_VERSION}
+  org.opencontainers.image.version=v${UPSTREAM_VERSION}
 USER root
 COPY requirements.txt /src
 RUN pip install -r /src/requirements.txt && rm /src/requirements.txt
