@@ -6,5 +6,5 @@ LABEL org.opencontainers.image.source=https://github.com/beetbox/beets \
 USER root
 COPY requirements.txt /src
 RUN pip install -r /src/requirements.txt && rm /src/requirements.txt
-RUN perl -pi -e 's/"r+"/"r"/g' /usr/local/lib/python3.12/site-packages/betanin/beets.py
+RUN sed -i -e 's/"r+"/"r"/g' /usr/local/lib/python3.12/site-packages/betanin/beets.py
 USER nobody:nogroup
