@@ -1,6 +1,6 @@
-ARG UPSTREAM_VERSION=2.3.0
+ARG UPSTREAM_VERSION=2.3.1
 FROM ghcr.io/home-operations/beets:${UPSTREAM_VERSION}
-ARG UPSTREAM_VERSION=2.3.0
+ARG UPSTREAM_VERSION=2.3.1
 LABEL org.opencontainers.image.source=https://github.com/beetbox/beets \
   org.opencontainers.image.version=v${UPSTREAM_VERSION}
 USER root
