@@ -22,6 +22,6 @@ beets[plexupdate]
 standard-aifc==3.13.0
 standard-sunau==3.13.0
 
-beetcamp==0.21.0
+beetcamp==0.22.0
 beets-copyartifacts3==0.1.5
 beets-lidarr-fields==1.1.2
