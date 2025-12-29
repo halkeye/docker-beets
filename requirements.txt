@@ -3,21 +3,21 @@
 # ffmpeg
 # gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly
 
-beets
-beets[inline]
-beets[convert]
-beets[web]
-beets[chroma]
-beets[duplicates]
-beets[albumtypes]
-beets[badfiles]
-beets[edit]
-beets[fetchart]
-beets[fromfilename]
-beets[importfeeds]
-beets[info]
-beets[lastgenre]
-beets[plexupdate]
+beets==2.5.1
+beets[inline]==2.5.1
+beets[convert]==2.5.1
+beets[web]==2.5.1
+beets[chroma]==2.5.1
+beets[duplicates]==2.5.1
+beets[albumtypes]==2.5.1
+beets[badfiles]==2.5.1
+beets[edit]==2.5.1
+beets[fetchart]==2.5.1
+beets[fromfilename]==2.5.1
+beets[importfeeds]==2.5.1
+beets[info]==2.5.1
+beets[lastgenre]==2.5.1
+beets[plexupdate]==2.5.1
 
 standard-aifc==3.13.0
 standard-sunau==3.13.0
@@ -26,4 +26,5 @@ beetcamp==0.23.0
 beets-copyartifacts3==0.1.5
 beets-lidarr-fields==1.1.2
 
-betanin
+# betanin==0.5.6
+beetiful @ git+https://github.com/halkeye/beetiful@d745bf433d008337f48f406b77c829554d269b1d
