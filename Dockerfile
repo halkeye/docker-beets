@@ -1,4 +1,4 @@
-FROM python:3.14.2
+FROM python:3.13
 ARG UPSTREAM_VERSION=2.3.1
 
 EXPOSE 3000
@@ -9,6 +9,9 @@ LABEL org.opencontainers.image.source=https://github.com/beetbox/beets \
 USER root
 WORKDIR /src
 COPY requirements.txt /src
+RUN apt-get -y update && apt-get install -y --no-install-recommends \
+  mp3gain \
+  ffmpeg
 RUN pip install -r /src/requirements.txt && rm /src/requirements.txt
 #RUN sed -i -e 's/"r+"/"r"/g' $(python -c 'import site; print(site.getsitepackages()[0])')/betanin/beets.py
 USER nobody:nogroup

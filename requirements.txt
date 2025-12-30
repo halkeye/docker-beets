@@ -23,8 +23,8 @@ standard-aifc==3.13.0
 standard-sunau==3.13.0
 
 beetcamp==0.23.0
-beets-copyartifacts3==0.1.5
+beets-copyartifacts3==0.1.6
 beets-lidarr-fields==1.1.2
 
 # betanin==0.5.6
-beetiful @ git+https://github.com/halkeye/beetiful@d745bf433d008337f48f406b77c829554d269b1d
+beetiful @ git+https://github.com/halkeye/beetiful@60e42c2a4105c50b204fe0b66e649544f41f8dab
