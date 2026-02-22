@@ -3,21 +3,21 @@
 # ffmpeg
 # gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly
 
-beets==2.6.1
-beets[inline]==2.6.1
-beets[convert]==2.6.1
-beets[web]==2.6.1
-beets[chroma]==2.6.1
-beets[duplicates]==2.6.1
-beets[albumtypes]==2.6.1
-beets[badfiles]==2.6.1
-beets[edit]==2.6.1
-beets[fetchart]==2.6.1
-beets[fromfilename]==2.6.1
-beets[importfeeds]==2.6.1
-beets[info]==2.6.1
-beets[lastgenre]==2.6.1
-beets[plexupdate]==2.6.1
+beets==2.6.2
+beets[inline]==2.6.2
+beets[convert]==2.6.2
+beets[web]==2.6.2
+beets[chroma]==2.6.2
+beets[duplicates]==2.6.2
+beets[albumtypes]==2.6.2
+beets[badfiles]==2.6.2
+beets[edit]==2.6.2
+beets[fetchart]==2.6.2
+beets[fromfilename]==2.6.2
+beets[importfeeds]==2.6.2
+beets[info]==2.6.2
+beets[lastgenre]==2.6.2
+beets[plexupdate]==2.6.2
 
 standard-aifc==3.13.0
 standard-sunau==3.13.0
